@@ -1,4 +1,6 @@
 import torch
+from torchmetrics.classification import MultilabelAveragePrecision
+from torchmetrics.regression.mae import MeanAbsoluteError
 
 
 def accuracy(output, target):
@@ -18,3 +20,15 @@ def top_k_acc(output, target, k=3):
         for i in range(k):
             correct += torch.sum(pred[:, i] == target).item()
     return correct / len(target)
+
+
+def mean_ap(output, target, labels=26):
+    metric = MultilabelAveragePrecision(num_labels=labels,
+                                        average="macro",
+                                        thresholds=None)
+    return metric(output, target)
+
+
+def mean_aae(output, target):
+    metric = MeanAbsoluteError().to(output.device)
+    return metric(output, target)

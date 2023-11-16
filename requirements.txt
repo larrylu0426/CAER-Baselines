@@ -6,6 +6,7 @@ pandas
 pillow
 tqdm
 vit_pytorch
+torchmetrics
 packaging
 opencv-python
 opencv-python-headless
