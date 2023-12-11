@@ -58,8 +58,8 @@ Here are the additional results and model links:
 |  face   | context | performace|
 |  ----  | ----  | ----  |
 | Y  | N | [84.78%](https://drive.google.com/file/d/1vTJZoZJaofVThOlUQQ8yOQ0YHEizSvCL/view?usp=sharing) |
-| Y  | Y | [67.19%](https://drive.google.com/file/d/1L4ro26poL5Jg6KQdE1KIt4xvE8RpjaZp/view?usp=sharing) |
-| N  | Y | [62.84%](https://drive.google.com/file/d/1Z1wdBtWn5Z2BSNGFRmNOJk6GwrMy3K0v/view?usp=sharing) |
+| Y  | Y | [67.83%](https://drive.google.com/file/d/17wX2C6DCyJlb2YpcYd2_SMTQRGPd7ftW/view?usp=sharing) |
+| N  | Y | [63.07%](https://drive.google.com/file/d/1hZAJv1aaxIyK17MeENYi2wW6-QUHQhGz/view?usp=sharing) |
 | N  | N | [74.31%](https://drive.google.com/file/d/1szGFn_JJxJt-gdlWhaasVW6_UkPDMTJO/view?usp=sharing) |
 
 ## Emotic with baseline model
